@@ -28,16 +28,19 @@
                 <section class="inputs">
                     <input type="submit" value="ثبت" id="add">
                     <input type="text" dir="rtl" placeholder="نام شهر را به انگلیسی وارد کنید..." id="cityInput">
-                  
                 </section>
 
                 <!-- Display section -->
                 <section class="display">
                     <div class="wrapper">
+                        <p id="errorMsg" class="error-msg"></p>
+                        <div id="weatherIcon" class="weather-icon"></div>
                         <h2 id="cityoutput"></h2>
                         <p id="description"></p>
                         <p id="temp"></p>
                         <p id="wind"></p>
+                        <p id="humidity"></p>
+                        <p id="pressure"></p>
                     </div>
                 </section>
 
@@ -45,8 +48,9 @@
         </div>
     </div>
 
- 
-<script src="/main.js"></script>
+
+<script src="./config.js"></script>
+<script src="./main.js"></script>
 </body>
 
 </html>
