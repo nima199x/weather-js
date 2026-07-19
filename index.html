@@ -15,6 +15,9 @@
 </head>
 
 <body>
+    <!-- Animated weather background layer -->
+    <div id="weatherBg" class="weather-bg"></div>
+
     <div class="container-fluid">
         <div class="row offset-sm-1">
             <!-- Header part -->
@@ -42,6 +45,10 @@
                         <p id="humidity"></p>
                         <p id="pressure"></p>
                     </div>
+
+                    <!-- 7-day forecast -->
+                    <h3 class="forecast-title">پیش‌بینی ۷ روز آینده</h3>
+                    <div id="forecast" class="forecast"></div>
                 </section>
 
             </section>
@@ -49,7 +56,6 @@
     </div>
 
 
-<script src="./config.js"></script>
 <script src="./main.js"></script>
 </body>
 
